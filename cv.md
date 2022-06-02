@@ -28,6 +28,6 @@ def duplicate_count(text):
 
 ## Language:
 
-English level - A2
+English - A2 level 
 
 Russian - native speaker
