@@ -7,18 +7,31 @@
 * GitHub: 7crux7
 
 ## About me
-I am studying programming in college on the 1st year of "programmer", I want to enter the IT tc as soon as possible, everything is very interesting there.
+I am studying programming in college on the 1st year of "programmer", I want to enter the IT as soon as possible, everything is very interesting there.
 
 ## Skills
 * Python
 * HTML
 * CSS
 * Java Script
+* Git & GitHub
 
 ## Code exemple
 ```
-def duplicate_count(text):
-    return sum([1 if text.lower().count(x) > 1 else 0 for x in set(text.lower())])
+def generate_hashtag(s):
+    
+            if len(s) > 140 or len(s) < 1:
+                return False
+            
+            s = s.split()
+            for index in range( len(s) ):
+                if s[index].isalpha():
+                    if len(s[index]) > 1:
+                        s[index] = s[index][0].upper() + s[index][1:].lower()
+                    else:
+                        s[index] = s[index][0].upper()
+                    
+            return '#' + ''.join(s)
 ```
 
 ## Education

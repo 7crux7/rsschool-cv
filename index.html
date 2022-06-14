@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <main class="main">
+    <aside class="left-section">
+      <header class="header">
+        <div class="profile">
+          <img src="photo.jpg" alt="photo">
+          <h1 class="name">Yaroslav Kluchnikov</h1>
+          <p class="career">Junior Frontend Developer</p>
+        </div>
+        <div class="contanct-info">
+            <h3 class="main-title">contanct-info</h3>
+            <nav>
+              <ul>
+                <li>
+                  <img class="contact-icon" src="phone.ico" alt="phone">
+                  <p>Discord</p>
+                </li>
+                <li>
+                  <img class="contact-icon" src="phone.ico" alt="phone">
+                  <p>Email</p>
+                </li>
+                <li>
+                  <img class="contact-icon" src="phone.ico" alt="phone">
+                  <p>Telegram</p>
+                </li>
+                <li>
+                  <img class="contact-icon" src="phone.ico" alt="phone">
+                  <a href="https://github.com/7crux7" alt="git">GitHub</a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+
+        <div class="skills-info">
+          <h3 class="main-title">skills</h3>
+          <ul>
+            <li>
+              <p>Git & GitHub</p>
+            </li>
+            <li>
+              <p>Python</p>
+            </li>
+            <li>
+              <p>HTML</p>
+            </li>
+            <li>
+              <p>CSS</p>
+            </li>
+            <li>
+              <p>Java Script</p>
+            </li>
+          </ul>
+      </div>
+
+      <div class="skills-info">
+        <h3 class="main-title">language</h3>
+        <ul>
+          <li>
+            <p>English - A2</p>
+          </li>
+          <li>
+            <p>Russian - main</p>
+          </li>
+        </ul>
+    </div>
+      </header>
+    </aside>
+
+    <aside class="right-section">
+      <h2 class="right-title">About Me</h2>
+      <div class="contian">
+        <p>I am studying programming in college on the 1st year of "programmer",
+           I want to enter the IT as soon as possible, everything is very interesting there
+        </p>
+      </div>
+      <h1 class="right-title">Education</h1>
+      <div class="contian">
+        <ul>
+          <li>Python video course</li>
+          <li>University: Homel Trade and Economics Kollege (present)</li>
+          <li>Rolling scopes school stage 0 (present)</li>
+        </ul>
+      </div>
+      <h1 class="right-title">Code Exemple</h1>
+      <div class="contian">
+        <code>
+          <pre>def generate_hashtag(s):
+    
+            if len(s) > 140 or len(s) < 1:
+                return False
+            
+            s = s.split()
+            for index in range( len(s) ):
+                if s[index].isalpha():
+                    if len(s[index]) > 1:
+                        s[index] = s[index][0].upper() + s[index][1:].lower()
+                    else:
+                        s[index] = s[index][0].upper()
+                    
+            return '#' + ''.join(s)</pre>
+        </code>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="https://rs.school/js/" alt="rs-school">
+        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D104554770927507&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FRollingScopesSchool%2F&tbnid=wHk60nhayrJJQM&vet=12ahUKEwiQqv-uia74AhUG_SoKHUx4AKMQMygLegUIARDIAQ..i&docid=qM7DhgNTKjdDLM&w=1200&h=1200&q=rs%20school&client=firefox-b-lm&ved=2ahUKEwiQqv-uia74AhUG_SoKHUx4AKMQMygLegUIARDIAQ" alt="icon-rs-school">
+      </a>
+      <p>2022</p>
+    </div>
+  </footer>
+</body>
+</html>
