@@ -1,1 +1,1 @@
-# rsschool-cv
+https://7crux7.github.io/rsschool-cv/

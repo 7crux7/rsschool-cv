@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #ffb273;
+}
+
+.footer {
+    height: 3rem;
+    width: 100%;
+    background-color: #865a3791;
+}
+
+.main {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+    color: #f7f7f7;
+    padding: 2rem;
+    /*grid-column: span 2; */
+    height: 100%;
+    background-color: #ff964d;
+}
+
+.right-section {
+    grid-column: span 6;
+    background-color: #f7f7f7;
+    height: 100%;
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    border-bottom: 2px solid #000000;
+    font-size: 1.5rem;
+}
+
+.profile {
+    width: 100%;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #be580e38;
+}
+
+
+.contanct-info li p {
+    display: inline;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-icon {
+    vertical-align: middle;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+.name {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+
+.career {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 3rem;
+}
+
+.main-title {
+    text-align: left;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 2rem;
+}
+
+.contanct-info ul {
+    padding: 1rem 2rem 2rem 1.3rem;
+}
+
+.contanct-info ul li {
+    padding: .4rem;
+    display: flex;
+    align-items: center;
+}
+
+.skills-info ul {
+    padding: 1rem 2rem 2rem 1.6rem;
+}
+
+.skills-info ul li {
+    padding: .4rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.skills-info li p {
+    display: inline;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.7);
+    list-style: square;
+}
+
+.contian { 
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+    line-height: 2.5rem;
+}
+
+.contian code pre{ 
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+    background-color: #b6b6b670;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
